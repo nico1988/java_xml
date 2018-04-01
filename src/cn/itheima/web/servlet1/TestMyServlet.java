@@ -10,7 +10,7 @@ public class TestMyServlet {
 	@Test
 	public void testMyServlet(){
 		try {
-			//1.创建解析器对象
+			//1.创建解析器对象  git推送
 			SAXReader saxReader = new SAXReader();
 			//2.使用解析器加载web.xml文件得到document对象
 			Document document = saxReader.read("src/cn/itheima/web/servlet1/web.xml");
